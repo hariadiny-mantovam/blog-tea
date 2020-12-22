@@ -1,2 +1,2 @@
-# blog-tea
+# blog/tea
 Primeiro projeto independente
