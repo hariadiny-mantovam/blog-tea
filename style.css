@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Varela+Round&display=swap');
+
 
 /*Clear layout*/
 
@@ -9,7 +11,7 @@ body{
     
 }
 
-/*Formatação Menu Prinicipal*/
+/*Formatação Menu Principal*/
 #menu-principal {
     margin-left: 480px;
     margin-top: 50px;
@@ -18,44 +20,47 @@ body{
 
 #menu-principal ul {
     list-style: none;
-    background: #ddb892;
+    background: #CC95C0;
+    background: -webkit-linear-gradient(to right, #c093b9, #e9e7df, #CC95C0);
+    background: linear-gradient(to right, #bcc2c9, #DBD4B4, #ccb0b5);
     border-radius: 70px;
     float: left;
     
 }
 
-#menu-principal ul li{
-    padding: 5px 10px;
-    text-align: center;
+ ul li{
     float: left;
-    background: #ddb892;
 }
 
 /*Formatação dos links do menu*/
-#menu-principal a{
+ul a{
     color: #fff;
     text-decoration: none; 
     display: block;
     font-size: 1.5em;
+    line-height: 1.5em;
+    padding: 5px 10px;
+    
 }
 
-#menu-principal a:hover{
-    color: #e76f51;  
+a:hover{
+    color: #e76f51; 
 }
 
 /*Formatação logo*/
-#logo{
+
+#area-logo{
     background: #edddd4;
     height: 300px;
     margin: 50px 100px;
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 200px;
     border: 2px dotted #eaac8b;
     transition: cubic-bezier(0.86, 0, 0.07, 1);
     opacity: 0.9;
 }
 
-#logo h1{
+#area-logo h1{
     color: #6d6875;
     text-justify: auto;
     font-style: italic;
@@ -71,4 +76,51 @@ body{
 .img-logo{
     margin-left: 500px;
     margin-bottom: 150px;
+}
+
+/*Formatação area principal*/
+
+#area-principal{
+    margin: 0;
+    padding: 0;
+}
+
+/*Conteudo sobre*/
+.conteudo-sobre{
+    width: 600px;
+    padding: 0 25px;
+    border-radius: 200px;
+    border: 2px dotted #eaac8b;
+    opacity: 0.9;
+    background: #edddd4;
+    margin: 100px;
+    float: left;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    color: #6d6875;
+    font-style: italic;
+    font-family: 'Dancing Script', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    text-align: center;
+    padding: 10px;
+    color: #2b2d42;
+    font-size: 1.4em;
+    font-family: 'Valera Round', Helvetica, sans-serif;
+}
+
+.autora-blog img{
+    border-radius: 50%;
+    float: right;
+    width: 300px;
+    height: 400px;
+    margin-right: 180px;
+    margin-top: 40px;
+    border: 2px dotted #eaac8b;
+
 }
