@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,100&display=swap');
 
 
 /*Clear layout*/
@@ -9,6 +9,12 @@ body{
     padding: 0;
     background-image: url(image/fundo-body.jpg);
     
+}
+
+
+/*Formatações gerais*/
+p{
+    font-family: 'Monteserrat';
 }
 
 /*Formatação Menu Principal*/
@@ -106,12 +112,12 @@ h2{
 
 }
 
-p{
+.conteudo-sobre p{
     text-align: center;
     padding: 10px;
     color: #2b2d42;
     font-size: 1.4em;
-    font-family: 'Valera Round', Helvetica, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
 .autora-blog img{
@@ -124,3 +130,84 @@ p{
     border: 2px dotted #eaac8b;
 
 }
+
+#area-receitas{
+    width: 800px;
+    height: 1700px;
+    margin: 200px auto;
+    margin-top: 50px;
+    background: #edddd4;
+    border-radius: 90px;
+    border: 2px dotted #eaac8b;
+    transition: cubic-bezier(0.86, 0, 0.07, 1);
+    opacity: 0.9;
+
+}
+
+.galeria-receitas{
+    margin-left: 350px auto;
+}
+
+.galeria-receitas img{
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    border: 2px double #eaac8b;
+   
+}
+
+.conteudo-receita{
+    margin-top: 0;
+}
+
+.conteudo-receita{
+    padding: 10px;
+}
+
+.galeria-receitas h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    color: #c53d81;
+    margin-left: 10px auto;
+
+}
+
+.galeria-receitas p{
+    font-family: 'Montserrat';
+    text-align: justify;
+}
+
+.galeria-receitas button{
+    background: #eaac8b;
+    border: 2px solid #eaac8b;
+    padding: 10px;
+    border-radius: 50px;
+    
+
+}
+
+
+
+
+
+.area-perguntas{
+    background: #edddd4;
+    height: 300px;
+    margin: 50px 100px;
+    padding: 5px;
+    border-radius: 200px;
+    border: 2px dotted #eaac8b;
+    transition: cubic-bezier(0.86, 0, 0.07, 1);
+    opacity: 0.9;
+}
+
+.perguntas{
+    padding: 10px 20px;
+    margin-left: 40px;
+}
+
+.perguntas p{
+    font-family: 'Montserrat';
+    font-size: 1em;
+}
+    
